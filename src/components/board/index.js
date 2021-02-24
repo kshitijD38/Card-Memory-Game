@@ -23,11 +23,3 @@ const Board = ({ disabled, cards, flipped, solved, handleClick }) => {
 };
 
 export default Board;
-
-Board.propType = {
-  disabled: PropTypes.bool.isRequired,
-  cards: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
-  flipped: PropTypes.arrayOf(PropTypes.number).isRequired,
-  handleClick: PropTypes.func.isRequired,
-  solved: PropTypes.arrayOf(PropTypes.number).isRequired
-};

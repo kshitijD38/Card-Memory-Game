@@ -28,14 +28,3 @@ export default function Card({
     </div>
   );
 }
-
-Card.propTypes = {
-  handleClick: PropTypes.func.isRequired,
-  id: PropTypes.number.isRequired,
-  flipped: PropTypes.bool.isRequired,
-  solved: PropTypes.bool.isRequired,
-  type: PropTypes.string.isRequired,
-  height: PropTypes.number.isRequired,
-  width: PropTypes.number.isRequired,
-  disabled: PropTypes.bool.isRequired
-};
