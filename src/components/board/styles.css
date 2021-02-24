@@ -3,3 +3,11 @@
   flex-wrap: wrap;
   flex-direction: row;
 } */
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  width: 450px;
+}
