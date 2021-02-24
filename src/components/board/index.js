@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Card from "../card";
+import "./styles.css";
 
 const Board = ({ disabled, cards, flipped, solved, handleClick }) => {
   return (
